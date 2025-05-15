@@ -81,23 +81,6 @@ return moda
 
 
   desvioPadrao() {
-    let soma1 = 0;
-    for (let i = 0; i < this._numeros.length; i++) {
-      soma1 = soma1 + this._numeros[i];
-    }
-    let media = soma1 / this._numeros.length;
-
-
-    let recebeAoQuadradoDesvio = 0;
-    for (let i = 0; i < this._numeros.length; i++) {
-      let desvio = this._numeros[i] - media;
-      recebeAoQuadradoDesvio = recebeAoQuadradoDesvio + (desvio ** 2);
-
-    }
-
-
-    let variancia = recebeAoQuadradoDesvio / this._numeros.length;
-
 
     let desvioPadrao = Math.sqrt(variancia);
     return desvioPadrao;
