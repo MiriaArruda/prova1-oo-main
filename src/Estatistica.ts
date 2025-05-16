@@ -1,4 +1,9 @@
+
+// Aluna:Miriã Lima Teixeira Arruda
+//trabalho individual
+
 export class Estatistica {
+
   private _numeros: number[];
 
   constructor(numeros: number[]) {
